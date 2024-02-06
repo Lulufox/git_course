@@ -11,8 +11,8 @@ This is a training repository I use for git-course on platform [Яндекс.П�
 ```git remote add origin *link from previous step*```
 5. Run `git status` to check the status
 
-##Commits
+##First commit
 1. `git status` to check status.
 2. `git add .` to add everything to index.
 3. `git commit -m 'Text'` to create a commit with a message
-4. `git push` to push to remote repo.
+4. `git push --set-upstream origin master` to push to remote repo.
