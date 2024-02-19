@@ -16,3 +16,13 @@ This is a training repository I use for git-course on platform [Яндекс.П�
 2. `git add .` to add everything to index.
 3. `git commit -m 'Text'` to create a commit with a message
 4. `git push --set-upstream origin master` to push to remote repo.
+
+##Mermaid scheme
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit" --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
